@@ -1,0 +1,50 @@
+#root {
+  font-weight: bold;
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* 
+* Estilos generales para el contenedor del componente ( Joke )
+*/
+.containerJokes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 28px;
+}
+.containerJokes p {
+  margin: 0;
+  color: #3d3d3d;
+  font-size: 18px;
+}
+/* Estilo para el titulo principal */
+.title {
+  font-size: 50px;
+  text-shadow: 4px 4px 0px #3d3d3d;
+  -webkit-text-stroke: 2px #3d3d3d; /* Borde de 2px de ancho y color rojo */
+}
+/* 
+* Estilos generales para el boton principal
+* para que tenga un estilo ( Neobrutalism )
+*/
+.btnJoke {
+  background-color: #c3e7e4;
+  border: 2px solid #3d3d3d;
+  border-radius: 5px;
+  padding: 10px 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3d3d3d;
+  box-shadow: 4px 4px 0px #3d3d3d;
+  transition: all 0.1s ease;
+  cursor: pointer;
+  outline: none;
+}
+.btnJoke:hover {
+  box-shadow: 2px 2px 0px #3d3d3d;
+  transform: translate(2px, 2px);
+}
